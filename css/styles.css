@@ -1,63 +1,94 @@
- .web {
-     color: #4d5ae5;
-     font-family: 'Raleway', sans-serif;
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 1.66;
-     cursor: pointer;
- }
+header {
+    color: #e7e9fc;
+}
 
- .studio {
-     color: #2e2f42;
-     font-family: 'Raleway', sans-serif;
-     font-weight: 700;
-     font-size: 18px;
-     line-height: 1.66;
-     cursor: pointer;
- }
+.web {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.66;
+    cursor: pointer;
+}
 
- ulol {
-     list-style-type: none;
- }
+.studio {
+    color: #2e2f42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.66;
+    cursor: pointer;
+}
 
- body {
-     font-family: "Roboto",
-         sans-serif;
-     color: #434455;
-     font-size: 16px;
-     background-color: #E7E9FC line-height: 1.5;
- }
+.studiofooter {
+    color: #f4f4fd;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.66;
+    cursor: pointer;
+}
 
- h2 {
-     font-size: 36px;
-     color: #2E2F42;
- }
+ul,
+ol {
+    list-style-type: none;
+}
 
- h1 {
-     font-size: 56px;
-     color: #FFFFFF;
- }
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    background-color: #ffffff;
+    line-height: 1.5;
+}
 
- .h1 {
-     background-color: #2E2F42
- }
+h2 {
+    font-size: 36px;
+    color: #2e2f42;
+}
 
- .button {
-     background-color: #4D5AE5;
-     color: #FFFFFF;
-     padding: 4%;
-     cursor: pointer;
- }
+h1 {
+    font-size: 56px;
+    color: #ffffff;
+}
 
- .contact {
-     color: #2E2F42;
-     cursor: pointer;
- }
+.h1 {
+    background-color: #2e2f42;
+}
 
- .target {
-     cursor: pointer;
- }
+.h1 .button {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    padding: 4%;
+    cursor: pointer;
+}
 
- header {
-     cursor: pointer;
- }
+.contact {
+    color: #2e2f42;
+    cursor: pointer;
+}
+
+.target {
+    cursor: pointer;
+}
+
+header {
+    cursor: pointer;
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+
+p {
+    color: #434455;
+}
+
+.h1 .button:hover, .h1 .button:focus {
+color: #000000
+}
