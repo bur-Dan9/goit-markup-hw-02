@@ -1,36 +1,63 @@
-// <uniquifier>: Use a unique and descriptive class name
+ .web {
+     color: #4d5ae5;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.66;
+     cursor: pointer;
+ }
 
-.raleway-<uniquifier> {
-    font-family: "Raleway", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-}
+ .studio {
+     color: #2e2f42;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.66;
+     cursor: pointer;
+ }
 
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+ ulol {
+     list-style-type: none;
+ }
 
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
+ body {
+     font-family: "Roboto",
+         sans-serif;
+     color: #434455;
+     font-size: 16px;
+     background-color: #E7E9FC line-height: 1.5;
+ }
 
-.roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-}
+ h2 {
+     font-size: 36px;
+     color: #2E2F42;
+ }
 
+ h1 {
+     font-size: 56px;
+     color: #FFFFFF;
+ }
 
+ .h1 {
+     background-color: #2E2F42
+ }
 
-.web {
-    color: #4D5AE5;
-}
+ .button {
+     background-color: #4D5AE5;
+     color: #FFFFFF;
+     padding: 4%;
+     cursor: pointer;
+ }
 
-.studio {
-    color: #2E2F42;
-}
+ .contact {
+     color: #2E2F42;
+     cursor: pointer;
+ }
+
+ .target {
+     cursor: pointer;
+ }
+
+ header {
+     cursor: pointer;
+ }
