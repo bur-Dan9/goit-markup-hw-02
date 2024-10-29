@@ -1,6 +1,5 @@
 header {
     color: #e7e9fc;
-    font-weight:700;
 }
 
 .studio, .portfolio, .contacts {
@@ -24,6 +23,30 @@ header {
 .address .phone:focus {
     color:#404bbf;
 }
+.h1 {
+    background-color: #2e2f42;
+}
+.h1 .nameh1 {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+.h1 .button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+.h1 .button:hover , .h1 .button:focus {
+    color:#404BBF;
+}
 .logo {
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
@@ -45,7 +68,72 @@ header {
     letter-spacing: 0.03em
     text-transform: uppercase;
 }
-
+.advantages {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+.advantages .ad-p {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    background-color: #ffffff;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em
+}
+.team {
+    background-color: #f4f4fd;
+}
+.team .nameteam {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team .nameteam .people {
+    background-color: #FFFFFF;
+}
+.team .nameteam .people .namepeoplez {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team .nameteam .people .namepeoplez .p-name {
+    font-size: 16px;
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 500;
+        letter-spacing: 0.02em
+}
+.portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.metod {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.metoduse {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
 .studiofooter {
     color: #f4f4fd;
     font-family: 'Raleway', sans-serif;
@@ -72,20 +160,6 @@ body {
     letter-spacing: 0.02em
 }
 
-h2 {
-    font-size: 36px;
-    color: #2e2f42;
-}
-
-h1 {
-    font-size: 56px;
-    color: #ffffff;
-}
-
-.h1 {
-    background-color: #2e2f42;
-}
-
 .h1 .button {
     background-color: #4d5ae5;
     color: #ffffff;
@@ -106,17 +180,12 @@ header {
     cursor: pointer;
 }
 
-.team {
-    background-color: #f4f4fd;
-}
-
-footer {
+.footer {
     background-color: #2e2f42;
     color: #f4f4fd;
 }
-
-p {
-    color: #434455;
+.footer-p {
+    color: #F4F4FD;
 }
 
 .h1 .button:hover, .h1 .button:focus {
