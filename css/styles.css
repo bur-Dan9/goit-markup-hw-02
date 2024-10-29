@@ -1,23 +1,75 @@
 header {
     color: #e7e9fc;
+    font-weight:700;
 }
 
-.web {
+.studio {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.studio:hover, .studio:focus {
+    color:#404bbf;
+}
+.portfolio {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.portfolio:hover,
+.portfolio:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
+}
+.address .mail {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address .mail:hover,
+.address .mail:focus {
+    color:#404bbf;
+}
+.address .phone {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.address .phone:hover,
+.address .phone:focus {
+    color: #404bbf;
+}
+
+
+.contacts {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf;
+}
+.logo {
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.66;
+    line-height: 1.17;
     cursor: pointer;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.studio {
+.logo .studio {
     color: #2e2f42;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.66;
+    line-height: 1.17;
     cursor: pointer;
+    letter-spacing: 0.03em
+    text-transform: uppercase;
 }
 
 .studiofooter {
@@ -25,8 +77,10 @@ header {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.66;
+    line-height: 1.17;
     cursor: pointer;
+    letter-spacing: 0.03em
+    text-transform: uppercase;
 }
 
 ul,
@@ -40,6 +94,8 @@ body {
     font-size: 16px;
     background-color: #ffffff;
     line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em
 }
 
 h2 {
