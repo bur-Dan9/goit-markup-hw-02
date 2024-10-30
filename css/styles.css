@@ -58,7 +58,6 @@ header {
     letter-spacing: 0.02em;
     color: #2e2f42;
     cursor: pointer;
-    cursor: pointer;
 }
 .contacts:hover, 
 .contacts:focus {
@@ -76,13 +75,12 @@ header {
 .address {
     font-style: normal;
 }
-.address .mail, .address .phone {
+.address .contact {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.address .mail:hover,
-.address .mail:focus, .address .phone:hover,
-.address .phone:focus {
+.address .contact:hover,
+.address .contact:focus {
     color:#404bbf;
 }
 
@@ -107,7 +105,7 @@ header {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.first .firstbtn:hover, .first .firstbtn:focus {
+.first .first-btn:hover, .first .first-btn:focus {
     color:#404BBF;
 }
 
@@ -138,8 +136,9 @@ header {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #FFFFFF
 }
-.team .peopleteam-img {
+.team .team-img {
     background-color: #FFFFFF;
 }
 .team .team-name {
