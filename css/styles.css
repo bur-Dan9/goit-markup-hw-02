@@ -105,9 +105,12 @@ header {
     letter-spacing: 0.04em;
     cursor: pointer;
 }
-.first .first-btn:hover, .first .first-btn:focus {
+.first .first-btn:focus {
     color:#404BBF;
 }
+.first .first-btn:hover {
+        color: #404BBF;
+    }
 
 .advantages {
     font-weight: 500;
